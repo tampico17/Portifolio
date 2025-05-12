@@ -12,6 +12,13 @@ let soma = num1 + num2;
 
 alert(soma)
 
-
-
+if(soma > 10){
+    alert("o resultado e maior que 10");
+}
+if(soma == 10){
+    alert("o resultado e igual a 10")
+}
+if(soma <10){
+    alert("o resultado e menor que 10");
+}
 }
